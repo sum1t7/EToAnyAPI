@@ -29,7 +29,8 @@ $ npm start
 
   #example 
   GET /api/hindi/hello
-  #without language , default hindi
+
+  #without language , default hindi RECOMMENDED
   GET /api/hello
   
 ```
