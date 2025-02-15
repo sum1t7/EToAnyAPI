@@ -14,9 +14,14 @@ app.get("/", (req, res) => {
 });
 
 app.get("/api/:lang/:word", sanitizer ,  async (req, res) => {
-    const lang = req.params.lang in languages ? languages[req.params.lang] : 'hi' ;
+    const lang = req.params.lang in languages ? languages[req.params.lang] : '' ;
     const word = req.params.word;
    await getTranslate({ query: { lang, word } }, res);
+});
+
+app.get("/api/:word", sanitizer ,  async (req, res) => {
+   const word = req.params.word;
+ await getTranslate({ query: { word } }, res);
 });
 
 app.get("*", (req, res) => {
