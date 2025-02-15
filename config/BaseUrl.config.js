@@ -1,0 +1,1 @@
+export const baseUrl = 'https://www.shabdkosh.com/search-dictionary?lc=';
