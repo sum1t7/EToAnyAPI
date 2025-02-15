@@ -29,6 +29,8 @@ $ npm start
 
   #example 
   GET /api/hindi/hello
+  #without language , default hindi
+  GET /api/hello
   
 ```
 
@@ -79,7 +81,7 @@ console.log(resp.data);
  
 | Parameter |  Type  | Description | Mandatory ? | Default |
 | :-------: | :----: | :---------: | :---------: | :-----: |
-|   `lang`  | string |    language     |   Yes ✔️    |   --    | 
+|   `lang`  | string |    language     |  No ❌   |   --    | 
 |   `word`  | string |    word     |   Yes ✔️    |   --    | 
 
 ```bash
