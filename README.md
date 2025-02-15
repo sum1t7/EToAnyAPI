@@ -79,7 +79,7 @@ console.log(resp.data);
  
 | Parameter |  Type  | Description | Mandatory ? | Default |
 | :-------: | :----: | :---------: | :---------: | :-----: |
-|   `lang`  | string |    word     |   Yes ✔️    |   --    | 
+|   `lang`  | string |    language     |   Yes ✔️    |   --    | 
 |   `word`  | string |    word     |   Yes ✔️    |   --    | 
 
 ```bash
