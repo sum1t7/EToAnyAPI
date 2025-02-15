@@ -83,9 +83,21 @@ console.log(resp.data);
 |   `word`  | string |    word     |   Yes ✔️    |   --    | 
 
 ```bash
-#language telegu , word hello 
+#language: telegu , word: hello 
 GET /api/telugu/hello
-
+```
+## Response 
+```javascript
+{
+  "success": true,
+  "result": {
+    "noun": [
+      {
+        "word": "ఏయ్"
+      }
+    ]
+  }
+}
 ```
 ## Languges Availabe
     hindi 
