@@ -1,6 +1,6 @@
 # EToAny API
 
-### Node.js API made 
+### Node.js RESTful API
 
 ># Installation
 
@@ -27,6 +27,9 @@ $ npm start
   #takes parameters language and word
   GET /api/:language/:word
 
+  #example 
+  GET /api/hindi/hello
+  
 ```
 
 ## Example Request
@@ -72,6 +75,35 @@ console.log(resp.data);
 }
 ```
 
+## Parameters
+ 
+| Parameter |  Type  | Description | Mandatory ? | Default |
+| :-------: | :----: | :---------: | :---------: | :-----: |
+|   `lang`  | string |    word     |   Yes ✔️    |   --    | 
+|   `word`  | string |    word     |   Yes ✔️    |   --    | 
+
+```bash
+#language telegu , word hello 
+GET /api/telugu/hello
+
+```
+## Languges Availabe
+    hindi 
+    bengali 
+    gujarati 
+    kannada 
+    malayalam 
+    marathi 
+    konkani 
+    nepali 
+    odia
+    punjabi 
+    sanskrit 
+    tamil 
+    telugu 
+    urdu 
+
+
 > # Deployement
 
 ### Vercel 
@@ -96,3 +128,5 @@ Please make sure to update tests as appropriate.
 ## License
 
 [MIT](LICENSE)
+
+
