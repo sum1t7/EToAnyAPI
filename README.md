@@ -39,7 +39,7 @@ $ npm start
 
 ```javascript
 import axios from "axios";
-const resp = await axios.get("https://e-to-any-api.vercel.app/api/hindi/hello");
+const resp = await axios.get("https://e-to-hindi.vercel.app/api/hindi/hello");
 console.log(resp.data);
 ```
 
