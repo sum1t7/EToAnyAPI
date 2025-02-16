@@ -19,8 +19,7 @@ export async function getMeaning(language, word) {
   const preposition = $("ul.preposition").first();
   const conjunction = $("ul.conjunction").first();
   const meaning = $("div#trans-multi-word").text();
-  console.log(data)
-   
+    
     
     const translatedWord = {
     meaning: meaning,
